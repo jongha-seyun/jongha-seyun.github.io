@@ -49,7 +49,7 @@
     <style data-emotion="css" data-s=""></style>
     <link rel="stylesheet skin" href="./resources/coral.css" type="text/css">
     <link href="./resources/jquery-sakura.css" rel="stylesheet" type="text/css">
-<!--    <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=87987d3ixu"></script>-->
+    <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=dh4pzgye2i"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
@@ -186,24 +186,24 @@
                     </div>
                 </div>
                 <div class="col-md-offset-2 col-md-8 animation fadeIn animated" style="visibility: visible;padding-top: 10px; padding-bottom: 30px">
-<!--                    <div style="margin-top: 20px; position: relative; overflow: hidden;">-->
-<!--                        <div id="map-canvas" style="width:100%;height:400px;"></div>-->
-<!--                        <div data-aos="fade-up" style="font-size:14px;font-weight:bold;padding-top:20px;padding-bottom:20px;display:flex;align-items:center;justify-content:center"-->
-<!--                             class="aos-init aos-animate">-->
-<!--                            <a href="https://m.map.kakao.com/scheme/place?id=422822065" target="_blank">-->
-<!--                                <div style="display:flex;align-items:center;justify-content:center;padding:0px 5px;margin-right: 10px">-->
-<!--                                    <img src="https://play-lh.googleusercontent.com/Nvrf8Z89_3S8H6YnOLgyAbe-PSSeCZnJDA8zv7LY04hEvi8atTgp_fmQ5RZ591Qpxh5G=w480-h960-rw" style="width:30px;border-radius: 20%;margin-right: 5px">-->
-<!--                                    <span>카카오맵</span>-->
-<!--                                </div>-->
-<!--                            </a>-->
-<!--                            <a href="https://naver.me/FyKikWpV" target="_blank">-->
-<!--                                <div style="display:flex;align-items:center;justify-content:center;padding:0px 5px;padding-right:10px">-->
-<!--                                    <img src="https://play-lh.googleusercontent.com/yB6ePH3QA0EMU8qTqM5tOPtpZ8bZeIYhb9Oi2RHOy9YvK5fdxIlbN1H46QtdHNC_1g=w480-h960-rw" style="width:30px;border-radius: 20%;margin-right: 5px">-->
-<!--                                    <span>네이버 지도</span>-->
-<!--                                </div>-->
-<!--                            </a>-->
-<!--                        </div>-->
-<!--                    </div>-->
+                    <div style="margin-top: 20px; position: relative; overflow: hidden;">
+                        <div id="map-canvas" style="width:100%;height:400px;"></div>
+                        <div data-aos="fade-up" style="font-size:14px;font-weight:bold;padding-top:20px;padding-bottom:20px;display:flex;align-items:center;justify-content:center"
+                             class="aos-init aos-animate">
+                            <a href="https://m.map.kakao.com/scheme/place?id=1687324400" target="_blank">
+                                <div style="display:flex;align-items:center;justify-content:center;padding:0px 5px;margin-right: 10px">
+                                    <img src="https://play-lh.googleusercontent.com/Nvrf8Z89_3S8H6YnOLgyAbe-PSSeCZnJDA8zv7LY04hEvi8atTgp_fmQ5RZ591Qpxh5G=w480-h960-rw" style="width:30px;border-radius: 20%;margin-right: 5px">
+                                    <span>카카오맵</span>
+                                </div>
+                            </a>
+                            <a href="https://naver.me/xXrwCawC" target="_blank">
+                                <div style="display:flex;align-items:center;justify-content:center;padding:0px 5px;padding-right:10px">
+                                    <img src="https://play-lh.googleusercontent.com/yB6ePH3QA0EMU8qTqM5tOPtpZ8bZeIYhb9Oi2RHOy9YvK5fdxIlbN1H46QtdHNC_1g=w480-h960-rw" style="width:30px;border-radius: 20%;margin-right: 5px">
+                                    <span>네이버 지도</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                     <div style="font-family: 'MapoFlowerIsland', sans-serif">
                         <span>• 지하철 : 잠실역 3번 출구<br>
                             • 식사는 오후 3시부터 가능합니다. <br>
@@ -482,17 +482,17 @@
             alert("복사되었습니다.");
         });
     }
-    // var mapOptions = {
-    //     center: new naver.maps.LatLng(37.3588812, 127.1052781),
-    //     draggable: false,
-    //     zoom: 14
-    // };
-    //
-    // var map = new naver.maps.Map('map-canvas', mapOptions);
-    // var marker = new naver.maps.Marker({
-    //     position: new naver.maps.LatLng(37.3588812, 127.1052781),
-    //     map: map
-    // });
+    var mapOptions = {
+        center: new naver.maps.LatLng(37.5112348, 127.0980274),
+        draggable: false,
+        zoom: 14
+    };
+
+    var map = new naver.maps.Map('map-canvas', mapOptions);
+    var marker = new naver.maps.Marker({
+        position: new naver.maps.LatLng(37.5112348, 127.0980274),
+        map: map
+    });
 
     $('.slider-for').slick({
         slidesToShow: 1,
